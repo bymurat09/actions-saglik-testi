@@ -1,0 +1,10 @@
+name: saglik
+
+on:
+  push:
+
+jobs:
+  saglik:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "actions saglik testi OK"
